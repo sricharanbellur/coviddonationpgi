@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+    <title>About us - TSF Donations </title>
+  </head>
+
+  <body> 
+        <nav class="navbar sticky-top navbar--light bg-light navbar-expand-sm" style= "background-color:#e4c6ab" >
+      
+      <a class="navbar-brand" href="home.html"> <img src="img/logo1.png" alt="TSF DONATIONS" style="width:50px;">
+      <a class="navbar-brand" href="home.html"><button type="button" class="btn btn-outline-info">TSF DONATIONS</button></a>
+      
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html"><button type="button" class="btn btn-outline-dark">Home</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><button type="button" class="btn btn-outline-dark">About Us</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html"><button type="button" class="btn btn-outline-dark">Contact us </button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://pages.razorpay.com/pl_HYT7v2FmRvd8BA/view"><button type="button" class="btn btn-outline-dark">Click to Donate</button></a>
+              </li>
+             </ul>
+       </nav>
+<br>
+  <br><center>
+
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/slides.css">
+
+</head>
+<body>
+
+<h1>ABOUT US - TSF DONATIONS</h1><br></center><br>
+<div class="slideshow-container">
+<center>
+    
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="img/pic1.jpg" style="width:65%">
+  <div class="text">The world is facing an unprecedented challenge with communities and economies everywhere affected by the growing COVID-19 pandemic.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="img/pic2.jpg" style="width:65%">
+  <div class="text">Donations received through the fund will go towards activities such as Suppress transmission through public health and social measures, including detecting and testing cases, tracing and quarantining contacts, shielding high-risk groups</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="img/pic3.jpg" style="width:65%">
+  <div class="text">JOIN US IN OUR MISSION TO SAVE LIVES HELP PROVIDE RELIEF AND SUPPORT TO PEOPLE FIGHTING COVID-19</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="img/pic4.jpg" style="width:65%">
+  <div class="text"> A MISSION TO REACH 1 MILLION OF THE MOST VULNERABLE CHILDREN AND FAMILIES WITH LIFE-SAVING SUPPLIES AND SUPPORT</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="img/pic5.jpg" style="width:65%">
+  <div class="text">To Manage the infodemic and fighting disinformation and misinformation,Donate to Us in helping humanity </div>
+</div>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</center>
+<script>
+var slideIndex = 1;
+var timer = null;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  clearTimeout(timer);
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  clearTimeout(timer);
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n==undefined){n = ++slideIndex}
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  timer = setTimeout(showSlides, 5000);
+} 
+</script>
+
+</body>
+</html> 
